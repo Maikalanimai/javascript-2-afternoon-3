@@ -28,7 +28,12 @@
 */
 
 // Code Here 
-
+function first(arr, cb){
+   cb(arr)
+}
+first(function ()){
+  return arr
+}
 // Do not edit the code below.
 var names = ['Tyler', 'Cahlan', 'Ryan', 'Colt', 'Tyler', 'Blaine', 'Cahlan'];
 
